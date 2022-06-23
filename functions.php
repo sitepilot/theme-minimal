@@ -14,9 +14,7 @@ if (!class_exists(Application::class)) {
 
 new Application(basename(__DIR__), __FILE__, [
     // Theme service providers
-    \Sitepilot\Theme\Providers\ThemeServiceProvider::class,
-
-    \Sitepilot\WpTheme\BeaverBuilder\BeaverBuilderServiceProvider::class
+    \Sitepilot\Theme\Providers\ThemeServiceProvider::class
 ]);
 
 if (!function_exists('sp_theme')) {
