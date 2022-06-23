@@ -23,10 +23,10 @@ jobs:
       - name: Install PHP dependencies
         run: composer install --no-dev
 
-      - name: Compile scripts and styles
-        run: |
-          npm install
-          npm run production
+      #- name: Compile scripts and styles
+      #  run: |
+      #    npm install
+      #    npm run production
 
       #- uses: sitepilot/action-deploy@main
       #  env:
