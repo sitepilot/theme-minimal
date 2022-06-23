@@ -19,11 +19,5 @@
     "require": {
         "php": "^7.4|^8.0",
         "sitepilot/wp-theme": "^1.0"
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "~/code/packages/*"
-        }
-    ]
+    }
 }
